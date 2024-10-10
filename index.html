@@ -19,7 +19,7 @@
           <img src="images/iphone.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" height="200" loading="lazy">
         </div>
         <div class="col-lg-6 text-center">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Meet new and interesting dogs nearby.</h1>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-start">Meet new and interesting dogs nearby.</h1>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-3">
             <button type="button" class="btn btn-light btn-lg px-4 me-md-2">Download</button>
             <button type="button" class="btn btn-outline-light btn-lg px-4">Download</button>
@@ -115,7 +115,7 @@
   <!-- Pricing -->
   <section id="pricing">
 
-    <div class="container">
+    <div class="container"> 
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h2 class="display-4 fw-normal">A Plan for Every Dog's Needs</h2>
         <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.
@@ -175,10 +175,10 @@
   </section>
   <!-- Footer -->
   <section id="footer" class="gradient-background">
-    <div class="container">
+    <div class="container-fluid"> <!-- Changed to container-fluid -->
       <footer class="py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
+        <div class="row justify-content-center"> <!-- Center the row content -->
+          <div class="col-6 col-md-2 mb-3 text-center"> <!-- Added text-center for section alignment -->
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -188,8 +188,7 @@
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
             </ul>
           </div>
-          Pricing
-          <div class="col-6 col-md-2 mb-3">
+          <div class="col-6 col-md-2 mb-3 text-center"> <!-- Added text-center -->
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -199,8 +198,8 @@
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
             </ul>
           </div>
-    
-          <div class="col-6 col-md-2 mb-3">
+  
+          <div class="col-6 col-md-2 mb-3 text-center"> <!-- Added text-center -->
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -210,8 +209,8 @@
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
             </ul>
           </div>
-    
-          <div class="col-md-5 offset-md-1 mb-3">
+  
+          <div class="col-md-5 offset-md-1 mb-3 text-center"> <!-- Added text-center -->
             <form>
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of what's new and exciting from us.</p>
@@ -223,10 +222,10 @@
             </form>
           </div>
         </div>
-    
+  
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>© 2024 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
+          <p class="text-center">© 2024 Company, Inc. All rights reserved.</p> <!-- Added text-center -->
+          <ul class="list-unstyled d-flex justify-content-center"> <!-- Center the social icons -->
             <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
             <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
             <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
@@ -235,6 +234,7 @@
       </footer>
     </div>
   </section>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
